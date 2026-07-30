@@ -1,5 +1,6 @@
 module Docs
     class WpilibJava < UrlScraper
+        # Generic Settings
         self.name = 'WPILib Java'
         self.slug = 'wpilib_java'
 
@@ -15,7 +16,7 @@ module Docs
         # Attribution Statement
         options[:attribution] = <<-HTML
         &copy; 2019&ndash;Present FIRST and other WPILib Contributors <br>
-        Licensed under CC-BY 4.0.
+        Licensed under the BSD 3-Clause License.
         HTML
 
         # Skip URLs when parsing
